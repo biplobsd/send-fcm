@@ -1,0 +1,29 @@
+{
+  "name": "@trigger.dev/api-reference",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pushMessage": "node -r dotenv/config -r ts-node/register src/send.ts"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.14.2",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "trigger.dev": {
+    "endpointId": "api-reference"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/jsforce": "^1.11.3",
+    "@types/node": "^20.5.4",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
